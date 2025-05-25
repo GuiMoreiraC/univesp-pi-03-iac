@@ -1,0 +1,45 @@
+# Terraform
+**/.terraform/**
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform_log.txt
+.terraform.tfstate.lock.info
+terraform_destroy_log.txt
+terraform_plan_log.txt
+
+# Pastas zips
+**/zips
+**/layers_zips
+**.zip
+
+# JWT
+**/common/jwt
+**/common/*.dist-info
+
+# Temporário
+TEMP.md
+response.json
+output.json
+src/media_plan
+
+# Layers
+src/layers/*/
+
+## Não ignora o diretório 'common_layer'
+!src/layers/common_layer/
+
+# Temporário
+TEMP.md
+TEMP.json
+.venv_temp/
+test_layers/
+src/layers/jwt_layer
+__pycache__/
+*.pyc
+
+# Data
+data/**/**
+
+# logs
+logs/
